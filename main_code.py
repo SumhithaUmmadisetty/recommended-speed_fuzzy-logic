@@ -1,5 +1,5 @@
-cloud_cover=25
-temp=65
+cloud_cover=int(input("enter the cloud coverage percentage"))
+temp=int(input("enter the temperature in Fahrenheit"))
 print("The cloud coverage is",cloud_cover,"and the temperature is",temp)
 
 def left_trapezium(x,alpha,beta):
